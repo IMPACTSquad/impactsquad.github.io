@@ -6,8 +6,8 @@ subtitle: Integrated Multimodal Pattern Analysis for Climate Transformation Rese
 #  Civil Engineering Bldg, 7a JJ Thomson Ave, Cambridge, CB3 0FA, United Kingdom.
 
 profile:
-  align: center
-  image: prof_pic.jpg
+  align: left
+  image: # prof_pic.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
