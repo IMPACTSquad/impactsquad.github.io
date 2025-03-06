@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Integrated Multimodal Pattern Analysis for Climate Transformation Research Group, University of Cambridge, United Kingdom.
+#  Civil Engineering Bldg, 7a JJ Thomson Ave, Cambridge, CB3 0FA, United Kingdom.
 
 profile:
   align: right
