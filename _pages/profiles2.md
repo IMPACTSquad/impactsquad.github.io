@@ -16,12 +16,12 @@ profiles:
         hobby: "Photography"
         education: "PhD in AI, MIT"
         social:
-          linkedin: "https://linkedin.com/in/johndoe"
-          twitter: "https://twitter.com/johndoe"
-          github: "https://github.com/johndoe"
-          bluesky: "https://bluesky.social/@johndoe"
-          linkedin: "https://www.linkedin.com/in/johndoe/"
-          google_scholar: "https://scholar.google.com/citations?user=12345"
+          linkedin: "https://impactsquad.github.io/"
+          twitter: "https://impactsquad.github.io/"
+          github: "https://impactsquad.github.io/"
+          bluesky: "https://impactsquad.github.io/"
+          linkedin: "https://impactsquad.github.io/"
+          google_scholar: "https://impactsquad.github.io/"
       - name: "Dr. John Doe"
         image: team_head2.jpg
         position: "Head Researcher"
@@ -29,12 +29,12 @@ profiles:
         hobby: "Photography"
         education: "PhD in AI, MIT"
         social:
-          linkedin: "https://linkedin.com/in/johndoe"
-          twitter: "https://twitter.com/johndoe"
-          github: "https://github.com/johndoe"
-          bluesky: "https://bluesky.social/@johndoe"
-          linkedin: "https://www.linkedin.com/in/johndoe/"
-          google_scholar: "https://scholar.google.com/citations?user=12345"
+          linkedin: "https://impactsquad.github.io/"
+          twitter: "https://impactsquad.github.io/"
+          github: "https://impactsquad.github.io/"
+          bluesky: "https://impactsquad.github.io/"
+          linkedin: "https://impactsquad.github.io/"
+          google_scholar: "https://impactsquad.github.io/"
 
   - title: "Current Members"
     members:
@@ -45,9 +45,12 @@ profiles:
         hobby: "Hiking"
         education: "MSc in CS, Stanford"
         social:
-          linkedin: "https://linkedin.com/in/janesmith"
-          twitter: "https://twitter.com/janesmith"
-          github: "https://github.com/janesmith"
+          linkedin: "https://impactsquad.github.io/"
+          twitter: "https://impactsquad.github.io/"
+          github: "https://impactsquad.github.io/"
+          bluesky: "https://impactsquad.github.io/"
+          linkedin: "https://impactsquad.github.io/"
+          google_scholar: "https://impactsquad.github.io/"
       - name: "Jane Smith"
         image: team_member2.jpg
         position: "Software Engineer"
@@ -55,9 +58,12 @@ profiles:
         hobby: "Hiking"
         education: "MSc in CS, Stanford"
         social:
-          linkedin: "https://linkedin.com/in/janesmith"
-          twitter: "https://twitter.com/janesmith"
-          github: "https://github.com/janesmith"
+          linkedin: "https://impactsquad.github.io/"
+          twitter: "https://impactsquad.github.io/"
+          github: "https://impactsquad.github.io/"
+          bluesky: "https://impactsquad.github.io/"
+          linkedin: "https://impactsquad.github.io/"
+          google_scholar: "https://impactsquad.github.io/"
       - name: "Jane Smith"
         image: team_member3.jpg
         position: "Software Engineer"
@@ -65,9 +71,12 @@ profiles:
         hobby: "Hiking"
         education: "MSc in CS, Stanford"
         social:
-          linkedin: "https://linkedin.com/in/janesmith"
-          twitter: "https://twitter.com/janesmith"
-          github: "https://github.com/janesmith"
+          linkedin: "https://impactsquad.github.io/"
+          twitter: "https://impactsquad.github.io/"
+          github: "https://impactsquad.github.io/"
+          bluesky: "https://impactsquad.github.io/"
+          linkedin: "https://impactsquad.github.io/"
+          google_scholar: "https://impactsquad.github.io/"
       - name: "Jane Smith"
         image: team_member4.jpg
         position: "Software Engineer"
@@ -75,9 +84,12 @@ profiles:
         hobby: "Hiking"
         education: "MSc in CS, Stanford"
         social:
-          linkedin: "https://linkedin.com/in/janesmith"
-          twitter: "https://twitter.com/janesmith"
-          github: "https://github.com/janesmith"
+          linkedin: "https://impactsquad.github.io/"
+          twitter: "https://impactsquad.github.io/"
+          github: "https://impactsquad.github.io/"
+          bluesky: "https://impactsquad.github.io/"
+          linkedin: "https://impactsquad.github.io/"
+          google_scholar: "https://impactsquad.github.io/"
       - name: "Jane Smith"
         image: team_member5.jpg
         position: "Software Engineer"
@@ -85,9 +97,12 @@ profiles:
         hobby: "Hiking"
         education: "MSc in CS, Stanford"
         social:
-          linkedin: "https://linkedin.com/in/janesmith"
-          twitter: "https://twitter.com/janesmith"
-          github: "https://github.com/janesmith"
+          linkedin: "https://impactsquad.github.io/"
+          twitter: "https://impactsquad.github.io/"
+          github: "https://impactsquad.github.io/"
+          bluesky: "https://impactsquad.github.io/"
+          linkedin: "https://impactsquad.github.io/"
+          google_scholar: "https://impactsquad.github.io/"
       - name: "Jane Smith"
         image: team_member6.jpg
         position: "Software Engineer"
@@ -95,9 +110,12 @@ profiles:
         hobby: "Hiking"
         education: "MSc in CS, Stanford"
         social:
-          linkedin: "https://linkedin.com/in/janesmith"
-          twitter: "https://twitter.com/janesmith"
-          github: "https://github.com/janesmith"
+          linkedin: "https://impactsquad.github.io/"
+          twitter: "https://impactsquad.github.io/"
+          github: "https://impactsquad.github.io/"
+          bluesky: "https://impactsquad.github.io/"
+          linkedin: "https://impactsquad.github.io/"
+          google_scholar: "https://impactsquad.github.io/"
 
   - title: "Alumni"
     members:
@@ -108,7 +126,12 @@ profiles:
         hobby: "Chess"
         education: "MSc in Data Science, Harvard"
         social:
-          linkedin: "https://linkedin.com/in/alicebrown"
+          linkedin: "https://impactsquad.github.io/"
+          twitter: "https://impactsquad.github.io/"
+          github: "https://impactsquad.github.io/"
+          bluesky: "https://impactsquad.github.io/"
+          linkedin: "https://impactsquad.github.io/"
+          google_scholar: "https://impactsquad.github.io/"
       - name: "Alice Brown"
         image: team_alum2.jpg
         position: "Former Data Scientist"
@@ -116,7 +139,12 @@ profiles:
         hobby: "Chess"
         education: "MSc in Data Science, Harvard"
         social:
-          linkedin: "https://linkedin.com/in/alicebrown"
+          linkedin: "https://impactsquad.github.io/"
+          twitter: "https://impactsquad.github.io/"
+          github: "https://impactsquad.github.io/"
+          bluesky: "https://impactsquad.github.io/"
+          linkedin: "https://impactsquad.github.io/"
+          google_scholar: "https://impactsquad.github.io/"
       - name: "Alice Brown"
         image: team_alum3.jpg
         position: "Former Data Scientist"
@@ -124,7 +152,12 @@ profiles:
         hobby: "Chess"
         education: "MSc in Data Science, Harvard"
         social:
-          linkedin: "https://linkedin.com/in/alicebrown"
+          linkedin: "https://impactsquad.github.io/"
+          twitter: "https://impactsquad.github.io/"
+          github: "https://impactsquad.github.io/"
+          bluesky: "https://impactsquad.github.io/"
+          linkedin: "https://impactsquad.github.io/"
+          google_scholar: "https://impactsquad.github.io/"
 
   - title: "External Partners"
     members:
@@ -135,5 +168,5 @@ profiles:
         hobby: "Innovation"
         education: "Industry Leader"
         social:
-          website: "https://techcorp.com"
+          website: "https://impactsquad.github.io/"
 ---
