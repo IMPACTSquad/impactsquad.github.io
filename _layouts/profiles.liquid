@@ -1,36 +1,44 @@
 ---
 layout: page
+title: "Our Team"
 ---
-<div class="post">
-  <article>
-    {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
-          {% endif %}
-        </div>
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
+<div class="team-container">
+  {% for section in page.profiles %}
+    <h2 class="team-title">{{ section.title }}</h2>
+    <div class="photo-grid">
+      {% for profile in section.members %}
+        <div class="profile-card">
+          <div class="image-container">
+            {% assign profile_image_path = profile.image | prepend: '/assets/img/' %}
+            <img src="{{ profile_image_path | relative_url }}" alt="{{ profile.name }}" class="profile-img grayscale" onclick="toggleColor(this)">
+          </div>
+          <div class="profile-info">
+            <h3>{{ profile.name }}</h3>
+            <p><strong>Position:</strong> {{ profile.position }}</p>
+            <p><strong>Project:</strong> {{ profile.project }}</p>
+            <p><strong>Hobby:</strong> {{ profile.hobby }}</p>
+            <p><strong>Education:</strong> {{ profile.education }}</p>
+            <div class="social-links">
+              {% if profile.social.linkedin %}
+                <a href="{{ profile.social.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+              {% endif %}
+              {% if profile.social.twitter %}
+                <a href="{{ profile.social.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+              {% endif %}
+              {% if profile.social.github %}
+                <a href="{{ profile.social.github }}" target="_blank"><i class="fab fa-github"></i></a>
+              {% endif %}
+              {% if profile.social.bluesky %}
+                <a href="{{ profile.social.bluesky }}" target="_blank"><i class="fab fa-bluesky"></i></a>
+              {% endif %}
+              {% if profile.social.google_scholar %}
+                <a href="{{ profile.social.google_scholar }}" target="_blank"><i class="fab fa-google"></i></a>
+              {% endif %}
+            </div>
+          </div>
         </div>
       {% endfor %}
-    {% endif %}
-  </article>
+    </div>
+  {% endfor %}
 </div>
